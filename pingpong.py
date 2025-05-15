@@ -6,7 +6,7 @@ class Game:
         self.display = pg.display.set_mode([900,700])
         self.clock = pg.time.Clock()	
         self.caption = pg.display.set_caption("Ping Pong")
-        self.image = pg.image.load(r"F:\Project\python\HD-wallpaper-table-tennis-red-flat-material-ping-pong-red-table-tennis.jpg")
+        self.image = pg.image.load("HD-wallpaper-table-tennis-red-flat-material-ping-pong-red-table-tennis.jpg")
         self.icon = pg.display.set_icon(self.image)
         self.FPS=60
         self.new_game()
